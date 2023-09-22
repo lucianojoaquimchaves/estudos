@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            background-color: aliceblue;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+  <h1>Pseudo Elementos</h1>  
+  <div>
+    Passe o mouse aqui
+    <p>SURPRESAAA!</p>
+  </div>
+  <p>Veja o conteúdo aparecendo</p>
+</body>
+</html>
