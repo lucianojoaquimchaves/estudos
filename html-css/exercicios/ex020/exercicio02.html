@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando os links</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            text-align: justify;
+            
+        }
+        
+        a{
+            text-decoration: none;
+            color: dodgerblue;
+            font-weight: bold;
+        }
+        .especial{
+            background-color: rgb(0, 197, 158);
+color:red;
+font-weight: bold;
+        }
+
+        .especial::before{
+            content: '#';
+        }
+        .especial::after{
+            content: '#';
+        }
+
+    a.especial:hover{
+color:black;
+    }
+
+   
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    a:visited{
+        color: brown;
+    }
+    
+    a:active{
+        color: yellow;
+    }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+  <ul>
+    <li> para apenas HML e CSS3, acesse o <a href="https://gustavoguanabara.github.io" target="_blank">GitHub do Guanabara</a ></li>
+    
+        <li> Se quiser conhecer mais sobre os padrões, visite o site do <a href="https://www.w3c.br" target="_blank">Escritório do W3C no Brasil</a></li>
+  
+    <li>Para acompanhar os cursos acesse o  <a href="https://www.youtube.com/cursoemvideo" class="especial">Canal do cursoemVideo</a></li>
+    </ul>
+</body>
+</html>
